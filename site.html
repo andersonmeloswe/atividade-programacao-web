@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu Fixo -->
+    <header id="navbar">
+        <nav>
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <!-- Botão para troca de tema -->
+            <button id="theme-toggle">Alternar Tema</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="content-section">
+            <h1>Sobre Mim</h1>
+            <div class="content-div">
+            <h2>ANDERSON MELO</h2>
+            </div>
+            <div class="content-div">
+                <h3>Apresentação</h3>
+                <p>Sou acadêmico de Ciência da Computação no Centro Universitário Internacional (UNINTER). Tenho concentrado meus estudos e projetos no ecossistema Back-end, com foco principal na linguagem Java.
+
+Meu objetivo é desenvolver sistemas robustos, escaláveis e eficientes, aplicando as melhores práticas de engenharia e arquitetura de software. Atualmente, busco aprimorar meus conhecimentos em estruturas de dados, bancos de dados e lógica de programação, visando criar soluções que resolvam problemas reais com alta performance.</p>
+            </div>
+            <div class="content-div">
+                <h3>Informações Pessoais</h3>
+                <p>Localização: Recife - PE</p>
+            </div>
+            <div class="content-div">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Musculação</li>
+                    <li>Leitura</li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <!-- Seção Formação -->
+        <section id="formacao" class="content-section">
+            <h1>Formação</h1>
+            <div class="content-div">
+                <h3>Educação</h3>
+                <ul>
+                    <li>Bacharelado em Ciência da Computação - Centro Universitário Internacional (UNINTER) (Em curso)</li>
+                </ul>
+            </div>
+            <div class="content-div">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Inglês Fluente</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio" class="content-section">
+            <h1>Portfólio</h1>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Em construção</h3>
+                    <p></p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="content-section">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <p id="form-feedback" class="hidden"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Anderson Melo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
